@@ -1,0 +1,209 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 10px;
+    background-color: white;
+}
+main form{
+    width: 100%;
+    height: 85%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:15px;
+}
+
+.form-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    gap:5px;
+
+}
+
+.form-header h2{
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-header p{
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+    color:rgb(9, 117, 134);
+}
+
+
+.input-groups{
+       width: 80%;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
+       gap:15px;
+}
+
+.profile-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+   
+}
+
+.profile-group > img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border:1px solid rgb(9, 117, 134);
+    border-radius: 50%;
+    background-color: white;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+.profile-group #file{
+    display: none;
+}
+
+.profile-group label{
+    width: fit-content;
+    padding: 5px 18px;
+    border: 1px solid rgb(9, 117, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    border-radius: 20px;
+    color:rgb(9, 117, 134);
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.profile-group label:hover{
+    background-color: darkorange;
+    color:white;
+    border-color: orange;
+}
+
+
+.input-group{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+   
+}
+
+.input-group input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(9, 117, 134);
+    padding: 8px 20px;
+    outline: none;
+    
+}
+
+.input-group input:focus{
+    border-color: darkorange;
+}
+
+.input-group img{
+    position: absolute;
+    left:0;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.call-to-actions{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.call-to-actions button{
+    background-color: transparent;
+    color:rgb(9, 117, 134);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    transition: 0.5s;
+    border-radius: 20px;
+   
+}
+
+.call-to-actions button:hover{
+    color:darkorange;
+}
+
+.call-to-actions p{
+    font-size: 11px;
+
+}
+
+.call-to-actions p a{
+    color:rgb(9, 117, 134);
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.call-to-actions p a:hover{
+    color:darkorange;
+}
+
+main .modal{
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 10;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap:15px;
+  padding: 20px;
+}
+
+.modal > img{
+    width: 50%;
+    object-fit: contain;
+}
+
+.modal h1{
+    width: 100%;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.modal p{
+    font-weight: 600;
+    color:rgb(9, 117, 134);
+}
+
+footer{
+    background-color: rgb(9, 117, 134);
+    
+}
+
+footer p{
+    color:white;
+}
